@@ -33,10 +33,26 @@ header{
     width: 30%;
 }
 
+.jumbotron{
+    background-color: #b4d0e7;
+}
+
 .jumbotron-content{
     flex-wrap: wrap;
 }
 
 .jumbotron-content h1{
+    width: 100%;
+}
+
+.jumbotron-trial{
+    width: 30%;
+}
+
+.jumbotron-pic{
+    width: 70%;
+}
+
+.jumbotron-pic>img{
     width: 100%;
 }
