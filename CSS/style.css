@@ -124,3 +124,30 @@ header{
 
 /* Main - business-clients */
 
+.business-clients{
+    margin: 0;
+    padding: 3rem 0;
+}
+
+.client-belt{
+    justify-content: flex-start;
+    width: 100vw;
+}
+
+.clients-box img{
+    width: 50%;
+}
+
+.client-square{
+    width: 264px;
+    height: 264px;
+}
+
+.clients-box{
+    flex-wrap: wrap;
+    width: calc((100% - 45%) / 2);
+}
+
+.client-description{
+    width: 45%;
+}
