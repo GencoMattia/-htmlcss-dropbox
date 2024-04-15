@@ -84,13 +84,23 @@ header{
     width: 100%;
 }
 
+/* Main - Partners */
+
+.partners{
+    justify-content: flex-start;
+    padding: 3rem 0;
+}
 
 .partners-img{
-    width: 50%
+    width: 60%
 }
 
 .partners-img>img{
     width: 100%
+}
+
+.partner-contact{
+    width: 30%;
 }
 
 
