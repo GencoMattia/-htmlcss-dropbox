@@ -66,6 +66,10 @@ header{
 
 /* Main - Subscription Plans */
 
+.subscription-plans{
+    padding: 3rem 0;
+}
+
 .plans-tabs{
     flex-wrap: wrap;
     justify-content: space-between;
