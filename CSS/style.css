@@ -17,6 +17,7 @@ ul{
 .flex-column{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .box-large{
@@ -25,7 +26,7 @@ ul{
 
 .box-slim{
     max-width: 60%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 /* Header */
@@ -186,6 +187,7 @@ header{
 .business-trial{
     background-color: #b4d0e7;
     color: #61082b;
+    width: 100%;
 }
 
 .trial-container{
