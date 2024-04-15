@@ -208,3 +208,19 @@ header{
 .faq-list>li{
     padding: 3rem;
 }
+
+/* Footer */
+
+footer{
+    flex-wrap: wrap;
+}
+
+.footer-nav{
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 5rem;
+}
+
+.footer-nav-list>ul>li{
+    padding-bottom: 2rem;
+}
