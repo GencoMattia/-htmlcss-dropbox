@@ -151,3 +151,29 @@ header{
 .client-description{
     width: 45%;
 }
+
+#designit-box{
+    background-color: #a2d39b;
+}
+#asu-box{
+    background-color: #61082b;
+}
+#uf-box{
+    background-color: #0093ce;
+}
+#topps-box{
+    background-color: #ff1c1c;
+}
+#bicycle-box{
+    background-color: #d5001f;
+}
+#hearst-box{
+    background-color: #b4d0e7;
+}
+#planet-box{
+    background-color: #0d2481;
+}
+#outdoor-box{
+    background-color: #ffd830;
+}
+
