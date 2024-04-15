@@ -10,8 +10,17 @@ ul{
 
 .flex{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.box-large{
+    max-width: 70%;
 }
 
 header{
@@ -22,4 +31,12 @@ header{
 
 .header-nav>div{
     width: 30%;
+}
+
+.jumbotron-content{
+    flex-wrap: wrap;
+}
+
+.jumbotron-content h1{
+    width: 100%;
 }
