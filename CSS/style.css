@@ -103,10 +103,19 @@ header{
     width: 30%;
 }
 
+/* Main - dropbox-business */
 
+.dropbox-business{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dropbox-business>h1{
+    width: 100%;
+}
 
 .business-feature{
-    width: 30%
+    width: calc((100% / 3) - 2rem)
 }
 
 .feat-img img{
