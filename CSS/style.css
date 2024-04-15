@@ -193,3 +193,18 @@ header{
 .trial-container{
     justify-content: space-between;
 }
+
+/* Main - faq-container */
+
+.faq-container{
+    align-items: flex-start;
+    width: 100%;
+}
+
+.faq-list{
+    padding: 3rem;
+}
+
+.faq-list>li{
+    padding: 3rem;
+}
