@@ -181,3 +181,13 @@ header{
     background-color: #ffd830;
 }
 
+/* Main - business-trial */
+
+.business-trial{
+    background-color: #b4d0e7;
+    color: #61082b;
+}
+
+.trial-container{
+    justify-content: space-between;
+}
