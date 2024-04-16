@@ -180,7 +180,16 @@ header{
     width: 100%;
 }
 
-.plan-team>ul{
+.plan-team>.article-content{
+    gap: 5rem;
+}
+
+.plan-team>.article-content>button{
+    align-self: center;
+}
+
+.plan-team>.article-content>ul{
+    padding: 0;
     width: 70%;
 }
 
