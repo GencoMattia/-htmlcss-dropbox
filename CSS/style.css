@@ -142,6 +142,22 @@ header{
     width: 100%;
 }
 
+.plan-team{
+    flex-wrap: wrap;
+}
+
+.plan-team>.plan-head{
+    width: 100%;
+}
+
+.plan-team>ul{
+    width: 70%;
+}
+
+.plan-team>button{
+    width: 30%;
+}
+
 /* Main - Partners */
 
 .partners{
