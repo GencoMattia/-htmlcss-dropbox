@@ -207,7 +207,8 @@ header{
 /* Main - Partners */
 
 .partners{
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
     padding: 3rem 0;
 }
 
@@ -220,7 +221,19 @@ header{
 }
 
 .partner-contact{
-    width: 30%;
+    width: 35%;
+    margin-top: 4rem;
+    padding-right: 4.3rem;
+}
+
+.partner-contact>p{
+    margin: 2rem 0;
+}
+
+.partner-contact>button{
+    background-color: white;
+    color: black;
+    border: black solid 1px;
 }
 
 /* Main - dropbox-business */
