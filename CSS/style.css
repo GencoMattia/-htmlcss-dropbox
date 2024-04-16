@@ -307,6 +307,22 @@ header{
 
 .client-description{
     width: 45%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: stretch;
+    padding: 3rem;
+}
+
+.client-central{
+    padding-bottom: 3rem;
+}
+
+.client-central>img{
+    width: 65%;
+}
+
+.client-description>p{
+    padding-top: 3rem;
 }
 
 #designit-box{
