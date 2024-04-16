@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: "open-sans", sans-serif;
+    font-family: "open sans", sans-serif;
 }
 
 ul{
@@ -72,6 +72,7 @@ header{
 /* Main - Jumbotron */
 .jumbotron{
     background-color: #b4d0e7;
+    padding-top: 5rem;
 }
 
 .jumbotron-content{
@@ -80,6 +81,7 @@ header{
 
 .jumbotron-content h1{
     width: 100%;
+    font-size: 5.5rem;
 }
 
 .jumbotron-trial{
