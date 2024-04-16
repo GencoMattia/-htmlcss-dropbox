@@ -25,11 +25,11 @@ ul{
 }
 
 .box-large{
-    max-width: 70%;
+    max-width: 63%;
 }
 
 .box-slim{
-    max-width: 60%;
+    max-width: 55%;
     /* margin: 0 auto; */
 }
 
@@ -81,11 +81,25 @@ header{
 
 .jumbotron-content h1{
     width: 100%;
-    font-size: 5.5rem;
+    padding-bottom: 3rem;
+    font-size: 5rem;
 }
 
 .jumbotron-trial{
     width: 30%;
+    font-size: 1.1rem;
+    align-self: flex-start;
+    align-items: flex-start;
+}
+
+.jumbotron-trial>button{
+    margin: 3rem 0;
+}
+
+.jumbotron-trial>i{
+    font-size: 4rem;
+    margin-top: 5.5rem;
+    justify-self: flex-end;
 }
 
 .jumbotron-pic{
