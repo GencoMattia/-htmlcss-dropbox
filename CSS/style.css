@@ -264,13 +264,16 @@ header{
 
 /* Main - business-clients */
 
-.business-clients{
-    /* margin: 0; */
-    padding: 3rem 0;
-}
-
 .clients-header{
     max-width: 70%;
+    align-self: flex-start;
+    align-items: flex-start;
+    margin: 10rem 0 7rem;
+}
+
+.clients-header>h1{
+    font-size: 3rem;
+    margin-bottom: 3rem;
 }
 
 .client-belt{
