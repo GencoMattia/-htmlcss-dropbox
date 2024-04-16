@@ -245,10 +245,17 @@ header{
 
 .dropbox-business>h1{
     width: 100%;
+    font-size: 2.5rem;
+    margin-top: 5rem;
 }
 
 .business-feature{
-    width: calc((100% / 3) - 2rem)
+    width: calc((100% / 3) - 2rem);
+    margin-top: 3rem;
+}
+
+.business-feature>p{
+    margin-top: 2rem;
 }
 
 .feat-img img{
