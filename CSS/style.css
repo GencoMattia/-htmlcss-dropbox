@@ -133,13 +133,43 @@ header{
     align-items: flex-start;
 }
 
+.plan-head{
+    text-align: center;
+    width: 100%;
+    padding: 1rem 0;
+    border-bottom: lightgray solid 1px;
+}
+
 .plans-tabs>article{
+    align-items: flex-start;
     width: calc((100% / 3) - 2rem);
-    border: grey solid 1px;
+    border: lightgray solid 1px;
+    padding-bottom: 2rem;
+}
+
+.article-content{
+    align-items: flex-start;
+    padding: 0 1.5rem;
+}
+
+.plans-tabs>article h2{
+    padding-top: 2rem;
+}
+
+.plans-tabs>article .price{
+    padding: 1rem 0;
 }
 
 .plans-tabs>.plan-team{
     width: 100%;
+}
+
+.plans-tabs>article ul{
+    padding: 2rem 0;
+}
+
+.plan-features li{
+    margin-bottom: 1rem;
 }
 
 .plan-team{
@@ -156,6 +186,12 @@ header{
 
 .plan-team>button{
     width: 30%;
+}
+
+.free-trial{
+    margin-bottom: 2rem;
+    width: 70%;
+    align-self: center;
 }
 
 /* Main - Partners */
