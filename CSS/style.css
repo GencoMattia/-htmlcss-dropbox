@@ -158,6 +158,15 @@ header{
 
 .plans-tabs>article .price{
     padding: 1rem 0;
+    
+}
+
+.plans-tabs>article .price p:first-of-type{
+    font-weight: bold;
+}
+
+.plans-tabs>article .price p:last-of-type{
+    color: grey;
 }
 
 .plans-tabs>.plan-team{
