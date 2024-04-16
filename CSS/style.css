@@ -61,6 +61,10 @@ header{
     justify-content: flex-start;
 }
 
+.header-nav>div>ul{
+    gap: 3rem;
+}
+
 .nav-login{
     justify-content: flex-end;
 }
