@@ -421,18 +421,27 @@ footer{
     color: white;
     justify-content: space-between;
     width: 100%;
-    padding-top: 5rem;
+    padding: 5rem 0;
 }
 
 .footer-nav-list>ul>li{
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.footer-nav-list>ul>li>h2{
+    margin-bottom: 1rem;
+}
+
+.language-box{
+    width: 100%;
+    justify-content: flex-start;
+    color: white;
 }
 
 .language-selection{
-    width: 100%;
-    padding: 3rem 0;
     justify-content: flex-start;
-    color: white;
+    padding: 3rem 2rem 3rem 0;
+    border-top: white solid 1px;
 }
 
 #lang-select{
