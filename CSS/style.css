@@ -191,11 +191,11 @@ header{
     padding-bottom: calc(2rem + 1px);
 }
 
-.plan-features{
+.plan-highlights{
     position: relative;
 }
 
-.plan-features::before{
+.plan-highlights::before{
     content: "";
     position: absolute;
     top: 0;
