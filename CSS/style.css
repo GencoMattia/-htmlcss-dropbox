@@ -492,6 +492,10 @@ footer{
     padding: 5rem 0;
 }
 
+.footer-nav a{
+    color: white;
+}
+
 .footer-nav-list>ul>li{
     padding-top: 1rem;
 }
