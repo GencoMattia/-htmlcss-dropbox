@@ -154,16 +154,11 @@ header{
     align-items: flex-start;
     width: calc((100% / 3) - 2rem);
     border: lightgray solid 1px;
-    padding-bottom: 2rem;
 }
 
 .article-content{
     align-items: flex-start;
-    padding: 0 1.5rem;
-}
-
-.plans-tabs>article h2{
-    padding-top: 2rem;
+    padding: 2rem 1.5rem;
 }
 
 .plans-tabs>article .price{
@@ -223,7 +218,8 @@ header{
 }
 
 .plan-team>.article-content>button{
-    align-self: center;
+    align-self: flex-start;
+    width: 30%;
 }
 
 .plan-team>.article-content>ul{
@@ -231,8 +227,13 @@ header{
     width: 70%;
 }
 
-.plan-team>button{
-    width: 30%;
+.article-content h2{
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.article-content h3{
+    margin-bottom: 3rem;
 }
 
 .free-trial{
