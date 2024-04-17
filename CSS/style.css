@@ -173,6 +173,16 @@ header{
     content: "\f07b";
 }
 
+.features-share::before{
+    font-family: "FontAwesome";
+    content: "\f1e0";
+}
+
+.features-users::before{
+    font-family: "FontAwesome";
+    content: "\f0c0";
+}
+
 .plans-tabs>article .price{
     padding: 1rem 0;
     
@@ -214,6 +224,9 @@ header{
 
 .plan-features li{
     margin-bottom: 1rem;
+    display: flex;
+    align-items: baseline;
+    gap: .3rem;
 }
 
 .plan-team{
