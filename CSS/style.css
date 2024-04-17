@@ -80,7 +80,6 @@ header{
 /* Main - Jumbotron */
 .jumbotron{
     background-color: #b4d0e7;
-    /* padding-top: 5rem; */
 }
 
 .jumbotron-content{
@@ -104,11 +103,14 @@ header{
 
 .jumbotron-trial>button{
     margin: 2rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: .8rem;
 }
 
 .jumbotron-trial>i{
     font-size: 3rem;
-    margin-top: 5rem;
+    margin-top: 4rem;
     justify-self: flex-end;
 }
 
