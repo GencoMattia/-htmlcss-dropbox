@@ -163,6 +163,16 @@ header{
     padding: 2rem 1.5rem;
 }
 
+.features-user::before{
+    font-family: "FontAwesome";
+    content: "\f007";
+}
+
+.features-storage::before{
+    font-family: "FontAwesome";
+    content: "\f07b";
+}
+
 .plans-tabs>article .price{
     padding: 1rem 0;
     
