@@ -73,6 +73,10 @@ header{
     justify-content: flex-end;
 }
 
+.begin-button{
+    margin-left: 1.5rem;
+}
+
 /* Main - Jumbotron */
 .jumbotron{
     background-color: #b4d0e7;
