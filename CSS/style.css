@@ -134,7 +134,7 @@ header{
 .plans-tabs{
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: stretch;
 }
 
 .plan-head{
