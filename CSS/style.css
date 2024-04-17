@@ -41,8 +41,8 @@ button{
     background-color: #0060ff;
     color: white;
     border: none;
+    font-size: 1rem;
     padding: .5rem 1rem;
-    font-weight: bold;
 }
 
 .link-plain{
@@ -109,7 +109,6 @@ header{
 .jumbotron-trial>button{
     margin: 2rem 0;
     font-size: 1rem;
-    font-weight: 500;
     padding: .8rem;
 }
 
