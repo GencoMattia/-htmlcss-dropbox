@@ -80,11 +80,13 @@ header{
 /* Main - Jumbotron */
 .jumbotron{
     background-color: #b4d0e7;
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
 }
 
 .jumbotron-content{
     flex-wrap: wrap;
+    position: relative;
+    top: 5rem;
 }
 
 .jumbotron-content h1{
@@ -101,12 +103,12 @@ header{
 }
 
 .jumbotron-trial>button{
-    margin: 3rem 0;
+    margin: 2rem 0;
 }
 
 .jumbotron-trial>i{
-    font-size: 4rem;
-    margin-top: 5.5rem;
+    font-size: 3rem;
+    margin-top: 5rem;
     justify-self: flex-end;
 }
 
