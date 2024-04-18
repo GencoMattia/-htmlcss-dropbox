@@ -366,7 +366,8 @@ header{
 }
 
 .clients-box img{
-    width: 50%;
+    width: 60%;
+    filter: invert(100%) sepia(0%) saturate(3942%) hue-rotate(266deg) brightness(93%) contrast(107%);;
 }
 
 .clients-box{
